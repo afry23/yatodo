@@ -1,0 +1,14 @@
+{
+  "name": "yatodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+    "serve:examples": "npx http-server . -c-1" "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "prettier": "3.0.3"
+  }
+}

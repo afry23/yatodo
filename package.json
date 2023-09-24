@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "serve:examples": "npx http-server . -c-1" "scripts": {
+  "scripts": {
+    "serve:todo": "npx http-server . -c-1" 
   },
   "author": "",
   "license": "ISC",

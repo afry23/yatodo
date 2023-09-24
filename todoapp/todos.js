@@ -85,10 +85,9 @@ function renderTodoInEditMode(todo) {
 }
 
 function doneTodo(index) {
-  // todos.splice(index, 1);
-  todosList.childNodes[index].remove();
   todos[index].done = true;
-  renderTodoInReadMode(todos[index]);
+  const todo = renderTodoInReadMode(todos[index]);
+  todosList.replaceChild(todo, todosList.childNodes[index]);
 }
 
 function addTodo() {
